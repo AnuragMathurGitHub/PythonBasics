@@ -6,7 +6,6 @@ import random
 import re
 import sys
 
-
 class VendingMachine:
     def __init__(self, num_items, item_price):
         self.num_items = num_items
@@ -22,7 +21,6 @@ class VendingMachine:
             self.num_items -= req_items
             self.change = money - req_items * self.item_price
             return self.change
-
 
 if __name__ == '__main__':
     output_path = os.environ.get('OUTPUT_PATH', 'output.txt')
