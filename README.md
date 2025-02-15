@@ -7,22 +7,21 @@ This project contains basic Python scripts and utilities.
 ```
 /c:/Coding/Python Basics/
 │
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── utils.py
-│   └── ... (other Python files)
+├── data_handling/
+│   ├── README.md
+│   └── pandas_basics.py
 │
-├── tests/
-│   ├── __init__.py
-│   ├── test_main.py
-│   └── ... (other test files)
+├── problem_solving_basics/
+│   ├── README.md
+│   ├── reverse_array.py
+│   ├── check_palindrome.py
+│   ├── sum_of_digits.py
+│   ├── fizzbuzz.py
 │
-├── data/
-│   └── ... (data files)
-│
+├── FizzBuzz.py
+├── VendingMachine.py
 ├── README.md
-└── requirements.txt
+└── ... (other Python files)
 ```
 
 ## How to Run
@@ -32,9 +31,19 @@ This project contains basic Python scripts and utilities.
     pip install -r requirements.txt
     ```
 
-2. Run the main script:
+2. Run the FizzBuzz script:
     ```
-    python src/main.py
+    python FizzBuzz.py
+    ```
+
+3. Run the Vending Machine script:
+    ```
+    python VendingMachine.py
+    ```
+
+4. Run the Pandas basics script:
+    ```
+    python data_handling/pandas_basics.py
     ```
 
 ## Running Tests
